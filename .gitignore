@@ -1,8 +1,5 @@
 # Ignore executables
-five_digits_sum
-is_prime
-fibonacci
-sorting
+
 # Ignore VS Code settings
 .vscode/
 
@@ -10,3 +7,6 @@ sorting
 *.o
 *.out
 *.exe
+a.out
+bin/
+/build/
