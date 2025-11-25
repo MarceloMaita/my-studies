@@ -9,4 +9,4 @@
 *.exe
 a.out
 bin/
-/build/
+/build/.DS_STORE
