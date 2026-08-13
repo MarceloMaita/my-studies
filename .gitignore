@@ -10,3 +10,4 @@
 a.out
 bin/
 /build/.DS_STORE
+**/.DS_Store
