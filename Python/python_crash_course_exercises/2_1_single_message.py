@@ -1,0 +1,2 @@
+message = "This is an exercise from the book ´Python Crash Course´ by Eric Matthes. The book is a great resource for learning Python programming and covers various topics including data structures, classes, and working with files."
+print(f"{message}")
