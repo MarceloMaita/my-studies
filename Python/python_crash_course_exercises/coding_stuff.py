@@ -1,5 +1,5 @@
 #Here I will do all the examples of the book which are not an exercise, but just a demonstration of the concepts explained in the book.
-"""
+#"""
 name = "ada lovelace"
 print(name.title())
 
@@ -18,6 +18,6 @@ print(f"Hello, {honorific_title.title()} {full_name.title()}!")
 #There is another way to compose a message usig f-strings
 message_2 = f"Hello, {honorific_title.title()} {full_name.title()}!"
 print(message_2)
-"""
+#"""
 
 
