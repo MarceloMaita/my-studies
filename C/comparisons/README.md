@@ -1,0 +1,1 @@
+These are implementations in language C from the exercises I've done in Python from the book "Python Crash Course, by Eric Matthes
