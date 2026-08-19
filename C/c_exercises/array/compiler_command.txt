@@ -1,1 +1,0 @@
-gcc -Wall -Wextra -pedantic array.c -o array.exe
