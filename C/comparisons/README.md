@@ -1,1 +1,2 @@
-These are implementations in language C from the exercises I've done in Python from the book "Python Crash Course, by Eric Matthes
+These are implementations in language C from the exercises I've done in Python from the book "Python Crash Course, by Eric Matthes.
+The core idea here is to understand the differences and particularities between these languages.
