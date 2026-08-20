@@ -1,0 +1,1 @@
+In this folder a put snippets of code that I use to understand C concepts.
