@@ -3,12 +3,13 @@
 
 /*write a C program that solve Fibonacci sequence for N terms. Iteratively and recursively.*/
 
-int fibonacci_iterative_way(int predecessor_1, int predecessor_2, int n);//separate function for the iterative approach
-int fibonacci_recursive_way(int n);//separate function for the recursive approach
+double fibonacci_iterative_way(double predecessor_1, double predecessor_2, int n);//separate function for the iterative approach
+double fibonacci_recursive_way(int n);//separate function for the recursive approach
 
 int main()
 {
-    int predecessor_1 = 0, predecessor_2 = 1, term, n, i, choice; //both predecessors holds the first two terms of the Fibonacci sequence, term holds the current term, n is the number of terms to be printed, and i is used for iteration.
+    int n, i, choice; //both predecessors holds the first two terms of the Fibonacci sequence, term holds the current term, n is the number of terms to be printed, and i is used for iteration.
+    double predecessor_1 = 0, predecessor_2 = 1, term;
 
     printf("Enter the number of terms in the Fibonacci sequence: ");
     scanf("%d", &n);
@@ -28,7 +29,7 @@ int main()
         for(i = 1; i <= n; i++)
         {
             term = fibonacci_recursive_way(i); //call the recursive function to get the current term
-            printf("%d ", term); //print the current term
+            printf("%.0f", term); //print the current term
         }
     }
     else
@@ -41,9 +42,10 @@ int main()
     
 }
 
-int fibonacci_iterative_way(int predecessor_1, int predecessor_2, int n)
+double fibonacci_iterative_way(double predecessor_1, double predecessor_2, int n)
 {
-    int term, i;
+    double term;
+    int i;
 
     for(i=1; i<=n; i++)//in this way, the value of 'i'mathces the n-th digit of the Fibonacci sequence
     {
@@ -61,14 +63,14 @@ int fibonacci_iterative_way(int predecessor_1, int predecessor_2, int n)
             predecessor_1 = predecessor_2; //update the predecessors for the next iteration
             predecessor_2 = term;
         }
-        printf("%d ", term); //print the current term
+        printf(" %.0f ", term); //print the current term
     }
     return 0;
 }
 
-int fibonacci_recursive_way(int n)
+double fibonacci_recursive_way(int n)
 {
-  //testing the erro
+  //testing the error
  //printf("value of n: %d\n", n);
     if(n == 1) //base case
         return 0;
