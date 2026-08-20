@@ -4,10 +4,13 @@
 .vscode/
 
 # Ignore other common build artifacts
+# C build artifacts
 *.o
 *.out
 *.exe
 a.out
 bin/
-/build/.DS_STORE
-**/.DS_Store
+build/
+
+# macOS
+.DS_Store
