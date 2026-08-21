@@ -12,5 +12,7 @@ a.out
 bin/
 build/
 
+
 # macOS
 .DS_Store
+..build*
