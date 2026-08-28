@@ -1,5 +1,5 @@
 #Here I will do all the examples of the book which are not an exercise, but just a demonstration of the concepts explained in the book.
-#"""
+"""
 name = "ada lovelace"
 print(name.title())
 
@@ -18,6 +18,25 @@ print(f"Hello, {honorific_title.title()} {full_name.title()}!")
 #There is another way to compose a message usig f-strings
 message_2 = f"Hello, {honorific_title.title()} {full_name.title()}!"
 print(message_2)
-#"""
+
+#chapter 4
+numbers = list(range(1, 6))
+print(numbers)
+
+even_numbers = list(range(2, 11, 2))
+print(even_numbers)
 
 
+squares = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+print(squares)
+
+print(f"min: {min(squares)}")
+print(f"max: {max(squares)}")
+print(f"Sum: {sum(squares)}")
+"""
+
+squares = [value**2 for value in range (1, 101)]
+print(squares)
