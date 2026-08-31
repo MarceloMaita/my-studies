@@ -23,7 +23,6 @@ print(binary_search(list, -1))
 
 
 
-
     
 
 
