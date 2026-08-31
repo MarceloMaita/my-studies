@@ -530,7 +530,6 @@ int print_menu(void)
         return -1; // Return an error code
     }   
 
-    printf("size of the array: %d\n", option); //this line is just for testing, to check if the option variable is being updated correctly with the user's input.
     return option;
 }
 

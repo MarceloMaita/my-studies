@@ -1,0 +1,1 @@
+In 08/31/2026 I removed a printf line that was just showing the option enterede by the user, but showing a different label. It doesn't make sense, so I remove it.
